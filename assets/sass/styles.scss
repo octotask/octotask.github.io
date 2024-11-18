@@ -1,10 +1,10 @@
-@import "vendor.scss";
-@import "pages/home.scss";
-@import "colors.scss";
-@import "markdown.scss";
-@import "switcher.scss";
-@import "addtocalendar.scss";
-@import "syntax.scss";
+@use "vendor";
+@use "pages/home";
+@use "colors";
+@use "markdown";
+@use "switcher";
+@use "addtocalendar";
+@use "syntax";
 
 img {
   max-width: 100%;
