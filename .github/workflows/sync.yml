@@ -1,0 +1,65 @@
+name: Sync app data
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies & sync data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          yarn install
+          yarn sync-data
+
+      - name: Commit & Push changes
+        run: |
+          git submodule init
+          git submodule update 
+          git config user.name Probot Bot
+          git config user.email probotbot@users.noreply.github.com
+          git add .
+          # do not error if there is nothing to commit
+          git commit -m "chore: Sync data" && git push || true
+
+
+      - name: Build CSS
+        run: yarn sass
+
+      - name: Build with Eleventy
+        run: yarn build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
