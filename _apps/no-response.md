@@ -4,11 +4,11 @@ description: Closes Issues where the author hasn't responded to a request for
   more information.
 slug: no-response
 screenshots:
-  - https://raw.githubusercontent.com/probot/no-response/master/docs/no-response-test.png
+  - https://raw.githubusercontent.com/octotask/no-response/master/docs/no-response-test.png
 authors:
   - lee-dohm
-repository: probot/no-response
-host: https://probot-no-response.herokuapp.com
+repository: octotask/no-response
+host: https://octotask-no-response.herokuapp.com
 stars: 107
 updated: 2021-07-13 16:35:48 UTC
 organizations:
@@ -63,7 +63,7 @@ It will:
 A `.github/no-response.yml` file is required to enable the app. The file can be empty, or it can override any of these default settings:
 
 ```yml
-# Configuration for probot-no-response - https://github.com/probot/no-response
+# Configuration for octotask-no-response - https://github.com/octotask/no-response
 
 # Number of days of inactivity before an Issue is closed for lack of response
 daysUntilClose: 14

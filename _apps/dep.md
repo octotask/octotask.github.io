@@ -8,7 +8,7 @@ screenshots:
 authors:
   - z0al
 repository: z0al/dep
-host: https://probot-dep.now.sh
+host: https://octotask-dep.now.sh
 stars: 72
 updated: 2020-11-25 11:42:22 UTC
 organizations:

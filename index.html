@@ -10,7 +10,7 @@ layout: default.liquid
       >
         <div class="col-md-8 text-center text-md-left">
           <h1 class="h2 text-uppercase lh-condensed text-brand-blue">
-            Probot
+            Octotask
           </h1>
           <h2 class="h2 lh-condensed">
             GitHub Apps to automate <br />and improve your workflow
@@ -26,7 +26,11 @@ layout: default.liquid
         <div
           class="col-3 mx-auto mx-md-0 offset-md-1 text-center text-md-right"
         >
-          <img src="/assets/img/logo.png" class="width-fit" alt="Probot logo" />
+          <img
+            src="/assets/img/logo.png"
+            class="width-fit"
+            alt="Octotask logo"
+          />
         </div>
       </div>
     </div>
@@ -42,8 +46,8 @@ layout: default.liquid
     </p>
 
     <div class="d-md-flex flex-wrap gutter flex-auto">
-      {% assign apps = collections.apps %} {% for app
-      in apps limit:6 %} {% include "app" app: app.data %} {% endfor %}
+      {% assign apps = collections.apps %} {% for app in apps limit:6 %} {%
+      include "app" app: app.data %} {% endfor %}
     </div>
 
     <div class="text-center my-6">
@@ -63,7 +67,7 @@ layout: default.liquid
     <p class="alt-lead text-center mb-6">Apps are easy to write and share.</p>
     <p class="text-center mb-6">
       <a class="btn btn-outline btn-large" href="/docs/">
-        <i class="m-2">{% octicon "tools" %}</i> Build a Probot App
+        <i class="m-2">{% octicon "tools" %}</i> Build a Octotask App
       </a>
     </p>
 
@@ -101,14 +105,10 @@ layout: default.liquid
             class="rounded-2 overflow-hidden border"
             style="margin-left: 60px"
           >
-{% highlight javascript %}
-export default (app) => {
-  app.on('issues.opened', async context => { 
-    const params = context.issue({ body: 'Hello World!' })
-    await context.octokit.issues.createComment(params) 
-  })
-}
-{% endhighlight %}
+            {% highlight javascript %} export default (app) => {
+            app.on('issues.opened', async context => { const params =
+            context.issue({ body: 'Hello World!' }) await
+            context.octokit.issues.createComment(params) }) } {% endhighlight %}
           </div>
         </div>
       </div>
@@ -117,7 +117,7 @@ export default (app) => {
         <div class="col-md-7">
           <img
             alt=""
-            src="https://github.com/probot.png"
+            src="https://github.com/octotask.png"
             height="44"
             width="44"
             class="avatar rounded-1 float-left"
@@ -127,7 +127,7 @@ export default (app) => {
             style="margin-left: 60px"
           >
             <div class="color-bg-tertiary px-3 py-2 border-bottom">
-              <strong>@probot</strong> commented
+              <strong>@octotask</strong> commented
             </div>
             <p class="m-0 p-3">Hello World!</p>
           </div>
@@ -137,7 +137,7 @@ export default (app) => {
           <p>Apps are first class actors within GitHub.</p>
           <p class="mt-3">
             <a href="/docs/"
-              >Get started with Probot {% octicon "chevron-right" %}</a
+              >Get started with Octotask {% octicon "chevron-right" %}</a
             >
           </p>
         </div>

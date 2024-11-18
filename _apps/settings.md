@@ -5,7 +5,7 @@ slug: settings
 stars: 933
 authors:
   - bkeepers
-repository: probot/settings
+repository: octotask/settings
 screenshots:
   - https://user-images.githubusercontent.com/173/29472917-3fad9db0-841b-11e7-8f6d-a6c63052122b.png
 updated: 2024-11-17 18:42:45 UTC
@@ -18,7 +18,7 @@ organizations:
   - owncloud
   - cncf
   - ArtSabintsev
-  - probot
+  - octotask
   - bkeepers
   - posva
 ---
@@ -102,4 +102,4 @@ collaborators:
 
 **WARNING:** Note that this app inherently _escalates anyone with `push` permissions to the **admin** role_, since they can push config settings to the `master` branch, which will be synced. In the future, we may add restrictions to allow changes to the config file to be merged only by specific people/teams, or those with **admin** access _(via a combination of protected branches, required statuses, and branch restrictions)_. Until then, use caution when merging PRs and adding collaborators.
 
-This app is open source. Check out [probot/settings](https://github.com/probot/settings) to suggest improvements or run your own instance.
+This app is open source. Check out [octotask/settings](https://github.com/octotask/settings) to suggest improvements or run your own instance.

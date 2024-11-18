@@ -20,12 +20,12 @@
     ],
     "Reference": [
       {
-        "title": "Probot",
-        "url": "https://probot.github.io/api/latest/classes/probot.Probot.html"
+        "title": "Octotask",
+        "url": "https://octotask.github.io/api/latest/classes/octotask.Octotask.html"
       },
       {
         "title": "context",
-        "url": "https://probot.github.io/api/latest/classes/context.Context.html"
+        "url": "https://octotask.github.io/api/latest/classes/context.Context.html"
       },
       {
         "title": "context.octokit",
@@ -33,11 +33,11 @@
       },
       {
         "title": "run",
-        "url": "https://probot.github.io/api/latest/modules/run.html"
+        "url": "https://octotask.github.io/api/latest/modules/run.html"
       },
       {
         "title": "createNodeMiddleware",
-        "url": "https://probot.github.io/api/latest/modules/create_node_middleware.html"
+        "url": "https://octotask.github.io/api/latest/modules/create_node_middleware.html"
       },
       {
         "title": "GitHub Webhook Events",

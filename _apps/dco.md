@@ -11,9 +11,9 @@ stars: 300
 authors:
   - bkeepers
   - hiimbex
-repository: probot/dco
+repository: octotask/dco
 updated: 2024-07-29 19:05:02 UTC
-host: https://probot-dco.herokuapp.com
+host: https://octotask-dco.herokuapp.com
 organizations:
   - moby
   - prometheus

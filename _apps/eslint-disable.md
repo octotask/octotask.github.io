@@ -6,8 +6,8 @@ screenshots:
   - https://user-images.githubusercontent.com/318208/36699828-d1a92b82-1b45-11e8-9a4d-91da0852d7da.png
 authors:
   - koddsson
-repository: koddsson/eslint-disable-probot
-host: https://eslint-disable-probot.herokuapp.com
+repository: koddsson/eslint-disable-octotask
+host: https://eslint-disable-octotask.herokuapp.com
 stars: 44
 updated: 2019-01-30 18:12:45 UTC
 organizations:
@@ -41,4 +41,4 @@ commentLimit: 10
 commentMessage: Please don't disable eslint rules :pray:
 ```
 
-If you need more configuration, please [let me know in a new issue](https://github.com/koddsson/eslint-disable-probot/issues/new?title=[Config]&body=Can%20you%20please%20add%20the%20___%20config%20option).
+If you need more configuration, please [let me know in a new issue](https://github.com/koddsson/eslint-disable-octotask/issues/new?title=[Config]&body=Can%20you%20please%20add%20the%20___%20config%20option).

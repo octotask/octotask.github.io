@@ -50,12 +50,12 @@ In addition to it, to safe UI clicking and time, I just added ability to auto-re
 We hosting it on https://triage-new-issues.now.sh/, but if you want to host it yourself
 
 1. Decide where to host
-2. Check out [Probot Docs on deploying](https://probot.github.io/docs/development/)
+2. Check out [Octotask Docs on deploying](https://octotask.github.io/docs/development/)
 3. Make sure your deployment service run the `start` script
 
 **ProTip:** If you choose to host on [Now](https://www.now.sh), check `now secrets help`
 
-**Note:** As of 15 November 2017, deploying on Now needs this workaround - [probot/probot#318](https://github.com/probot/probot/issues/318#issuecomment-343010573)
+**Note:** As of 15 November 2017, deploying on Now needs this workaround - [octotask/octotask#318](https://github.com/octotask/octotask/issues/318#issuecomment-343010573)
 
 ## Screenshots
 

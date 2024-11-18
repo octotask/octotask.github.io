@@ -16,7 +16,7 @@ organizations:
   - aio-libs
   - HeroTransitions
   - umijs
-  - probot
+  - octotask
   - guanguans
   - octokit
   - Provenance-Emu

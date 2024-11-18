@@ -10,7 +10,7 @@ const result = sass.compileString(
     .css.replaceAll("@import '@primer", "@use 'pkg:@primer"),
   {
     importers: [sass.NodePackageImporter()],
-  }
+  },
 );
 
 fs.mkdirSync("assets/dist", {

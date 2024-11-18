@@ -7,10 +7,10 @@ screenshots:
 authors:
   - jbjonesjr
   - bkeepers
-repository: probot/reminders
+repository: octotask/reminders
 stars: 163
 updated: 2024-10-29 14:23:32 UTC
-host: https://probot-reminders.herokuapp.com
+host: https://octotask-reminders.herokuapp.com
 organizations:
   - i0natan
   - eggjs
@@ -18,7 +18,7 @@ organizations:
   - watson-developer-cloud
   - chaijs
   - apereo
-  - probot
+  - octotask
   - eclipse
   - arcticicestudio
   - rtfd

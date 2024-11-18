@@ -1,18 +1,18 @@
-# probot.github.io
+# octotask.github.io
 
-This is the home of probot.github.io, a website for [probot](https://github.com/probot/probot) documentation, apps, how-to guides and more.
+This is the home of octotask.github.io, a website for [octotask](https://github.com/octotask/octotask) documentation, apps, how-to guides and more.
 
 ## Documentation
 
-The majority of documentation on the site is drawn from [the probot docs](https://github.com/probot/probot/blob/master/docs/). If you have requests for documentation additions to probot, please open an issue in [probot/probot](https://github.com/probot/probot), or if you want to add them yourself, feel free to open a pull request there.
+The majority of documentation on the site is drawn from [the octotask docs](https://github.com/octotask/octotask/blob/master/docs/). If you have requests for documentation additions to octotask, please open an issue in [octotask/octotask](https://github.com/octotask/octotask), or if you want to add them yourself, feel free to open a pull request there.
 
 ## App Showcase
 
-We also use this website to show off some of the cool probot apps built by the community. If you would like to have your app listed there, check out our [Contributing Guidelines](https://github.com/probot/probot.github.io/blob/master/CONTRIBUTING.md) for more information about what the requirements are to do that.
+We also use this website to show off some of the cool octotask apps built by the community. If you would like to have your app listed there, check out our [Contributing Guidelines](https://github.com/octotask/octotask.github.io/blob/master/CONTRIBUTING.md) for more information about what the requirements are to do that.
 
 ## Install and Usage
 
-If you'd like to work on this repository, clone it. We use [11ty](https://www.11ty.dev/) to build the website, hosted on [GitHub Pages](https://pages.github.com/). We also use Git submodules to pull docs from the docs folder in [probot/probot](https://github.com/probot/probot/tree/master/docs).
+If you'd like to work on this repository, clone it. We use [11ty](https://www.11ty.dev/) to build the website, hosted on [GitHub Pages](https://pages.github.com/). We also use Git submodules to pull docs from the docs folder in [octotask/octotask](https://github.com/octotask/octotask/tree/master/docs).
 
 Once you've cloned this repo, run these commands in this directory:
 
@@ -33,8 +33,8 @@ We'd love to have you contribute! PRs are gladly accepted, and issues are also g
 
 If you're interested in contributing, check out our [contributing docs](CONTRIBUTING.md) to get started.
 
-Want to get more involved with the Probot community? [Take a look at our community page](https://probot.github.io/community/)!
+Want to get more involved with the Octotask community? [Take a look at our community page](https://octotask.github.io/community/)!
 
 ## License
 
-This website is licensed [CC-BY-4.0](LICENSE). The Probot logo is licensed [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was found on [wikimedia.org](https://commons.wikimedia.org/wiki/File:Robot-clip-art-book-covers-feJCV3-clipart.png) and is from clipartkid.com.
+This website is licensed [CC-BY-4.0](LICENSE). The Octotask logo is licensed [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was found on [wikimedia.org](https://commons.wikimedia.org/wiki/File:Robot-clip-art-book-covers-feJCV3-clipart.png) and is from clipartkid.com.

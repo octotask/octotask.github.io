@@ -31,8 +31,8 @@ jobs:
         run: |
           git submodule init
           git submodule update 
-          git config user.name Probot Bot
-          git config user.email probotbot@users.noreply.github.com
+          git config user.name Octotask Bot
+          git config user.email octotaskbot@users.noreply.github.com
           git add .
           # do not error if there is nothing to commit
           git commit -m "chore: Sync data" && git push || true

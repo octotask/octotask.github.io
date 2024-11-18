@@ -1,6 +1,6 @@
 ---
 title: self-approval
-description: A GitHub App built with Probot that allows Pull Request authors to
+description: A GitHub App built with Octotask that allows Pull Request authors to
   self-approve their Pull Requests.
 slug: self-approval
 screenshots:
@@ -12,7 +12,7 @@ stars: 4
 updated: 2024-07-26 23:41:31 UTC
 ---
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that allows Pull Request authors to self-approve their Pull Requests.
+> A GitHub App built with [Octotask](https://github.com/octotask/octotask) that allows Pull Request authors to self-approve their Pull Requests.
 
 ![Screenshot](https://raw.githubusercontent.com/self-approval/app/main/screenshot.png)
 

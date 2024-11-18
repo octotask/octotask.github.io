@@ -88,7 +88,7 @@ for (const path of files) {
     app.updated = new Date(repo.data.pushed_at).toRubyString();
 
     if (app.host) {
-      const statsFromServer = await fetch(app.host + "/probot/stats");
+      const statsFromServer = await fetch(app.host + "/octotask/stats");
       if (statsFromServer.status === 200) {
         const stats: Record<string, unknown> = YAML.parse(
           await statsFromServer.text(),

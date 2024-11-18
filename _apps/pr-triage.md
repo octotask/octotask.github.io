@@ -33,7 +33,7 @@ Firstly, I started to create PRTriage to solve my own pain. As an engineer, I sp
 
 Please follow the below steps to install quickly :rocket::
 
-1. Go to [PRTriage App top page](https://probot.github.io/apps/pr-triage/)
+1. Go to [PRTriage App top page](https://octotask.github.io/apps/pr-triage/)
 1. Click **"+ Add to GitHub"** button
 1. Choose a repository
 1. That's it :sparkles:
@@ -62,5 +62,5 @@ Please follow the below steps to install for GitHub Enterprise :rocket::
         - Pull request
         - Pull request review
 1. Deploy the app to Glitch, Heroku or Now.
-    - [Read more about how to deploy app](https://probot.github.io/docs/deployment/)
+    - [Read more about how to deploy app](https://octotask.github.io/docs/deployment/)
 

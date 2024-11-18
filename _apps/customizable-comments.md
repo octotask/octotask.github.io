@@ -1,20 +1,20 @@
 ---
 title: Customizable Comments
 description: Auto-replies with customizable comments based on template vars
-slug: probot-cc
+slug: octotask-cc
 screenshots:
-  - https://github.com/tizmagik/customizable-comments/raw/a8fe5d59a127040ab6842dbf2c681e7690970544/public/probot-cc-sample.png
+  - https://github.com/tizmagik/customizable-comments/raw/a8fe5d59a127040ab6842dbf2c681e7690970544/public/octotask-cc-sample.png
 authors:
   - tizmagik
 repository: tizmagik/customizable-comments
-host: https://probot-cc.vercel.app
+host: https://octotask-cc.vercel.app
 stars: 3
 updated: 2023-01-09 17:09:51 UTC
 ---
 
 ## Configuration options
 
-_📒 Currently, this Probot App only supports `pull_request.opened` events._
+_📒 Currently, this Octotask App only supports `pull_request.opened` events._
 
 _I would be happy to add more, just submit a PR or Issue with what you'd find useful._
 

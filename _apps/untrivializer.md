@@ -25,7 +25,7 @@ organizations:
 
 # untrivializer
 
-> a GitHub App built with [probot](https://github.com/probot/probot) that asks in Github comments if you're really sure something is trivial.
+> a GitHub App built with [octotask](https://github.com/octotask/octotask) that asks in Github comments if you're really sure something is trivial.
 
 ![screenshot](https://raw.githubusercontent.com/entendu/untrivializer/master/docs/ss.png)
 

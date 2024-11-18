@@ -11,7 +11,7 @@ authors:
   - hiimbex
 repository: behaviorbot/welcome
 updated: 2023-09-26 21:44:25 UTC
-host: https://probot-welcome.herokuapp.com
+host: https://octotask-welcome.herokuapp.com
 organizations:
   - vuejs
   - electron

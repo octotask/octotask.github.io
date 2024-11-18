@@ -10,7 +10,7 @@ authors:
   - hiimbex
 repository: behaviorbot/request-info
 updated: 2022-02-21 13:08:05 UTC
-host: https://probot-request-info.herokuapp.com
+host: https://octotask-request-info.herokuapp.com
 organizations:
   - Homebrew
   - ant-design

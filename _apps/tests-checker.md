@@ -110,7 +110,7 @@ If you have suggestions for how `tests-checker` could be improved, or want to re
 
 For more, check out the [Contributing Guide](https://github.com/infection/tests-checker/blob/master/CONTRIBUTING.md).
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that require writing tests in Pull Requests.
+> A GitHub App built with [Octotask](https://github.com/octotask/octotask) that require writing tests in Pull Requests.
 
 ## License
 

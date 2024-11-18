@@ -23,7 +23,7 @@ organizations:
   - Sama34
 ---
 
-A GitHub bot to label issues based on title and body against list of defined labels. Built with [probot](https://github.com/probot/probot).  
+A GitHub bot to label issues based on title and body against list of defined labels. Built with [octotask](https://github.com/octotask/octotask).  
 
 ## Installation  
 After installation, create `.github/labeler.yml` in the default branch to enable it:

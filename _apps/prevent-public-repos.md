@@ -6,8 +6,8 @@ screenshots:
   - https://user-images.githubusercontent.com/6920330/33576380-9a90cc92-d90d-11e7-9e61-6512240cdbf6.png
 authors:
   - issc29
-repository: issc29/probot-prevent-public-repos
-host: https://probot-prevent-public-repos.herokuapp.com
+repository: issc29/octotask-prevent-public-repos
+host: https://octotask-prevent-public-repos.herokuapp.com
 stars: 31
 updated: 2023-03-03 15:03:06 UTC
 organizations:
@@ -23,9 +23,9 @@ organizations:
   - RedVentures
 ---
 
-# Prevent-Public-Repos Probot App
+# Prevent-Public-Repos Octotask App
 
-A GitHub Probot App that monitors and prevents Public Repositories from being created in an organization.
+A GitHub Octotask App that monitors and prevents Public Repositories from being created in an organization.
 
 
 ## Features
@@ -48,7 +48,7 @@ A GitHub Probot App that monitors and prevents Public Repositories from being cr
 
 By default when a new repository is created with Public visibility, an Issue will be created in the repository warning that it is Public to the internet [Monitor-Only mode is enabled].
 
-A `.github/prevent-public-repos.yml` file is recommended to override the [default settings](https://github.com/issc29/probot-prevent-public-repos/blob/master/lib/defaults.js) created in Repository `org-settings`. This repository will contain global settings for the organization.
+A `.github/prevent-public-repos.yml` file is recommended to override the [default settings](https://github.com/issc29/octotask-prevent-public-repos/blob/master/lib/defaults.js) created in Repository `org-settings`. This repository will contain global settings for the organization.
 
 ```yml
 # Configuration for Prevent-Public-Repos
@@ -78,11 +78,11 @@ monitorIssueBody: 'Please note that this repository is publicly visible to the i
 # excludeRepos: ['repo1', 'repo2']
 ```
 
-When setting up this Probot App you can also set a number of Environment Variables
+When setting up this Octotask App you can also set a number of Environment Variables
 
 ## Deployment
 
-See [docs/deploy.md](https://github.com/issc29/probot-prevent-public-repos/blob/master/docs/deploy.md) if you would like to run your own instance of this app.
+See [docs/deploy.md](https://github.com/issc29/octotask-prevent-public-repos/blob/master/docs/deploy.md) if you would like to run your own instance of this app.
 
 Possible Environment Variables:
 - FILE_NAME [default: '.github/prevent-public-repos.yml'] - Sets the location/file name of the config yml file

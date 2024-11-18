@@ -1,6 +1,6 @@
 {
-    "name": "Probot",
-    "short_name": "Probot",
+    "name": "Octotask",
+    "short_name": "Octotask",
     "icons": [
         {
             "src": "/android-chrome-192x192.png?v=jw3d9vxKo4",
@@ -15,6 +15,6 @@
     ],
     "theme_color": "#66cce0",
     "background_color": "#66cce0",
-    "start_url": "https://probot.github.io/",
+    "start_url": "https://octotask.github.io/",
     "display": "standalone"
 }

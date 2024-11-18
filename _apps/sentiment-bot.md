@@ -10,13 +10,13 @@ authors:
   - hiimbex
 repository: behaviorbot/sentiment-bot
 updated: 2021-09-23 20:23:00 UTC
-host: https://probot-sentiment-bot.herokuapp.com
+host: https://octotask-sentiment-bot.herokuapp.com
 organizations:
   - ant-design
   - nlohmann
   - arendst
   - kartik-v
-  - probot
+  - octotask
   - theme-next
   - git-for-windows
   - PrestaShop

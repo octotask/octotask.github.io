@@ -20,7 +20,7 @@ updated: 2024-02-11 18:13:58 UTC
 
 # Repo Assistant AI
 
-Welcome to Repo Assistant AI! 🎉 This GitHub App is built with [Probot](https://github.com/probot/probot) and integrates [OpenAI](https://openai.com/) to help maintainers identify and label duplicate issues automatically. Using the power of OpenAI's embeddings and Supabase's database, this app streamlines your workflow by finding similarities between issues.
+Welcome to Repo Assistant AI! 🎉 This GitHub App is built with [Octotask](https://github.com/octotask/octotask) and integrates [OpenAI](https://openai.com/) to help maintainers identify and label duplicate issues automatically. Using the power of OpenAI's embeddings and Supabase's database, this app streamlines your workflow by finding similarities between issues.
 
 
 

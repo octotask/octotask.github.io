@@ -25,11 +25,11 @@ organizations:
   - kenzok8
 ---
 
-[![Probot Featured](https://badgen.net/badge/probot/featured/orange?icon=dependabot&style=flat&cache=86400)](https://probot.github.io)
-[![Managing](https://badgen.net/https/raw.githack.com/pull-app/stats/master/badges/managing.json?style=flat&cache=600)](https://probot.git.ci/apps/pull)
-[![Installations](https://badgen.net/https/raw.githack.com/pull-app/stats/master/badges/installed.json?style=flat&cache=600)](https://probot.git.ci/apps/pull)
+[![Octotask Featured](https://badgen.net/badge/octotask/featured/orange?icon=dependabot&style=flat&cache=86400)](https://octotask.github.io)
+[![Managing](https://badgen.net/https/raw.githack.com/pull-app/stats/master/badges/managing.json?style=flat&cache=600)](https://octotask.git.ci/apps/pull)
+[![Installations](https://badgen.net/https/raw.githack.com/pull-app/stats/master/badges/installed.json?style=flat&cache=600)](https://octotask.git.ci/apps/pull)
 [![Triggered #](https://badgen.net/runkit/pull-triggered-badge-5e55hqhkhmid?style=flat&cache=600)](https://github.com/issues?q=author%3Aapp%2Fpull)
-[![Stars](https://badgen.net/github/stars/wei/pull?icon=github&style=flat&cache=600)](https://probot.git.ci/apps/pull)
+[![Stars](https://badgen.net/github/stars/wei/pull?icon=github&style=flat&cache=600)](https://octotask.git.ci/apps/pull)
 
 > 🤖 a GitHub App that keeps your forks up-to-date with upstream via automated pull requests.
 

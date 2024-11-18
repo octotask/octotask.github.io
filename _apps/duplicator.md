@@ -8,7 +8,7 @@ screenshots:
   - https://user-images.githubusercontent.com/24159/38773626-522445dc-401f-11e8-9cb4-213bf21e8097.png
 authors:
   - raulriera
-repository: raulriera/probot-duplicator
+repository: raulriera/octotask-duplicator
 host: https://rapid-sousaphone.glitch.me
 stars: 7
 updated: 2018-07-06 02:21:05 UTC
@@ -25,7 +25,7 @@ organizations:
   - siphonyeti
 ---
 
-# Probot: Duplicator
+# Octotask: Duplicator
 
 ![Screenshot](https://user-images.githubusercontent.com/24159/38773624-51f04930-401f-11e8-8caa-8265eb5fa1ac.png)
 

@@ -131,4 +131,4 @@ You can configure Tap Release using the following key in your `.github/tap-relea
 |`url`|Optional|URL pattern to generate the download URLs. Use [URL variables](#url-variables) to insert the values from the release.|
 |`branches`|Optional|A list of branches that trigger the tap to be updated when the `.github/tap-release.yml` file is modified. Useful if you want to test the app on a pull request branch. Default is `"master"`.|
 
-Tap Release also supports [Probot Config](https://github.com/probot/probot-config), if you want to store your configuration files in a central repository.
+Tap Release also supports [Octotask Config](https://github.com/octotask/octotask-config), if you want to store your configuration files in a central repository.

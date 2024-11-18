@@ -27,7 +27,7 @@ organizations:
 
 # GitHub Polls Bot
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that automatically creates [gh-polls](https://github.com/apex/gh-polls) in GitHub issues.
+> A GitHub App built with [Octotask](https://github.com/octotask/octotask) that automatically creates [gh-polls](https://github.com/apex/gh-polls) in GitHub issues.
 
 [![Build Status](https://api.travis-ci.org/evenchange4/gh-polls-bot.svg?branch=master)](https://travis-ci.org/evenchange4/gh-polls-bot) [![codecov](https://codecov.io/gh/evenchange4/gh-polls-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/evenchange4/gh-polls-bot)
 
